@@ -32,7 +32,13 @@
 <script> 
 var example = document.getElementById("example");
 ctx = example.getContext('2d');
-
+var  colorMap = [
+        "#FF00FF",
+        "#0000FF",
+        "#FFFF00",
+        "#00FF00",
+        "#00FFFF"
+    ];
 var mur = function (num) {
         if ((++array[x[num]][y[num]]) == 1) {
             direction[num]--;
